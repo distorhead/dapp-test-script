@@ -4,7 +4,7 @@ set -e
 
 gem install dapp
 
-[ ! -z "$(dapp --version | grep 0.7.13)" ] || (echo "GOVNO!" && dapp --version && exit 1)
+[ ! -z "$(dapp --version | grep 0.7.14)" ] || (echo "GOVNO!" && dapp --version && exit 1)
 
 rm -rf /tmp/testdapp
 
