@@ -12,4 +12,4 @@ gem install bundler
 
 bundle install
 
-rvmsudo -sE bundle exec rspec
+bundle exec rspec
